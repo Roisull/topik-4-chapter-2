@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Topik 4 Chap 2</string>
+    
+<!--    layout 1 custom string-->
+    <string name="super_admin">Super Admin</string>
+    <string name="tamyiz">Tamyiz</string>
+    <string name="transaksi_buku">Transaksi Buku</string>
+    <string name="transaksi_pesantren_bulanan">Transaksi Pesantren Bulanan</string>
+    <string name="transaksi_penjualan_buku">Transaksi Penjualan Buku</string>
+    <string name="data_buku_dua">Data Buku II Tambah Data</string>
+    <string name="data_piutang_buku">Data Piutang Buku</string>
+    <string name="laporan_penjualan_buku">Laporan Penjaulan Buku</string>
+    <string name="pendaftaran_santri_baru">Pendaftaran Santri Baru</string>
+    <string name="kas">KAS (D/K)</string>
+    <string name="data_piutang_bulanan">Data Pituang Bulanan</string>
+    <string name="laporan_keuangan">Laporan Keuangan</string>
+    
 </resources>

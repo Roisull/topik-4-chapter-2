@@ -4,6 +4,7 @@
     android:layout_height="match_parent">
 
     <RelativeLayout
+        android:id="@+id/rl_top"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:background="@drawable/bg_layout_satu">
@@ -11,17 +12,52 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Super Admin"
-            android:textColor="@color/white"
-            android:layout_margin="10dp"/>
+            android:layout_margin="10dp"
+            android:text="@string/super_admin"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/logo_satu" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/permanent_marker"
+                android:text="@string/tamyiz"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+        </LinearLayout>
 
         <ImageView
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/ic_baseline_account_circle"
             android:layout_alignParentEnd="true"
-            android:padding="10dp"/>
+            android:padding="10dp"
+            android:src="@drawable/ic_baseline_account_circle" />
 
     </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_transaksi_buku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/transaksi_buku"
+        android:layout_below="@+id/rl_top"
+        android:layout_margin="30dp"
+        android:textColor="@color/green_1"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="12sp"/>
+
 
 </RelativeLayout>
