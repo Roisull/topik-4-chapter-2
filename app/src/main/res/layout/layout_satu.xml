@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/grey_bg"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <RelativeLayout
         android:id="@+id/rl_top"
@@ -52,12 +54,357 @@
         android:id="@+id/tv_transaksi_buku"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/transaksi_buku"
         android:layout_below="@+id/rl_top"
-        android:layout_margin="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/transaksi_buku"
+        android:textColor="@color/green_1"
+        android:textSize="12sp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_satu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_transaksi_buku"
+        app:cardCornerRadius="8dp"
+        android:elevation="5dp">
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/bg_card_view">
+
+            <ImageView
+                android:id="@+id/iv_book_satu"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/book_satu" />
+
+            <TextView
+                android:id="@+id/tv_transaksi_penjualan_buku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/iv_book_satu"
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/transaksi_penjualan_buku"
+                android:textAlignment="textStart"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="40dp"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_dua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="6dp"
+        android:backgroundTint="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/cv_satu"
+        app:cardCornerRadius="8dp"
+        android:elevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/bg_card_view">
+
+            <ImageView
+                android:id="@+id/iv_book_dua"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/book_dua" />
+            <TextView
+                android:id="@+id/tv_data_tambah_buku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/iv_book_dua"
+                android:text="@string/data_buku_dua"
+                android:textAlignment="textStart"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="40dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="11sp"/>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_tiga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="6dp"
+        android:backgroundTint="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/cv_dua"
+        app:cardCornerRadius="8dp"
+        android:elevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/bg_card_view">
+
+            <ImageView
+                android:id="@+id/iv_book_tiga"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/book_tiga" />
+            <TextView
+                android:id="@+id/tv_data_piutang_buku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/iv_book_tiga"
+                android:text="@string/data_piutang_buku"
+                android:textAlignment="textStart"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="40dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="11sp"/>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_empat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="6dp"
+        android:backgroundTint="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/cv_tiga"
+        app:cardCornerRadius="8dp"
+        android:elevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/bg_card_view">
+
+            <ImageView
+                android:id="@+id/iv_book_empat"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/book_empat" />
+            <TextView
+                android:id="@+id/tv_laporan_penjualan_buku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/iv_book_empat"
+                android:text="@string/laporan_penjualan_buku"
+                android:textAlignment="textStart"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="40dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="11sp"/>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_transaksi_pesantren_bulanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cv_empat"
+        android:text="@string/transaksi_pesantren_bulanan"
         android:textColor="@color/green_1"
         android:fontFamily="@font/poppins_medium"
-        android:textSize="12sp"/>
+        android:textSize="11sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"/>
 
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_lima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="6dp"
+        android:backgroundTint="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_transaksi_pesantren_bulanan"
+        app:cardCornerRadius="8dp"
+        android:elevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/bg_card_view">
+
+            <ImageView
+                android:id="@+id/iv_book_lima"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/book_satu" />
+            <TextView
+                android:id="@+id/tv_pendaftaran_santri_baru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/iv_book_lima"
+                android:text="@string/pendaftaran_santri_baru"
+                android:textAlignment="textStart"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="40dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="11sp"/>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_enam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="6dp"
+        android:backgroundTint="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/cv_lima"
+        app:cardCornerRadius="8dp"
+        android:elevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/bg_card_view">
+
+            <ImageView
+                android:id="@+id/iv_book_enam"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/book_dua" />
+            <TextView
+                android:id="@+id/tv_kas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/iv_book_enam"
+                android:text="@string/kas"
+                android:textAlignment="textStart"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="40dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="11sp"/>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_tujuh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="6dp"
+        android:backgroundTint="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/cv_enam"
+        app:cardCornerRadius="8dp"
+        android:elevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/bg_card_view">
+
+            <ImageView
+                android:id="@+id/iv_book_tujuh"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/book_tiga" />
+            <TextView
+                android:id="@+id/tv_data_piutang_bulanan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/iv_book_tujuh"
+                android:text="@string/data_piutang_bulanan"
+                android:textAlignment="textStart"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="40dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="11sp"/>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_delapanm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="6dp"
+        android:backgroundTint="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/cv_tujuh"
+        app:cardCornerRadius="8dp"
+        android:elevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/bg_card_view">
+
+            <ImageView
+                android:id="@+id/iv_book_delapan"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/book_empat" />
+            <TextView
+                android:id="@+id/tv_laporan_keuangan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/iv_book_delapan"
+                android:text="@string/laporan_keuangan"
+                android:textAlignment="textStart"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="40dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="11sp"/>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
 
 </RelativeLayout>
