@@ -3,17 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/ricki/AndroidStudioProjects/topik-4-chapter-2/app/src/main/res/drawable/arrow_right_icon.xml" value="0.1155" />
-        <entry key="..\:/Users/ricki/AndroidStudioProjects/topik-4-chapter-2/app/src/main/res/drawable/bg_btn_layout2_page3.xml" value="0.1155" />
-        <entry key="..\:/Users/ricki/AndroidStudioProjects/topik-4-chapter-2/app/src/main/res/drawable/bg_layout_satu.xml" value="0.1155" />
-        <entry key="..\:/Users/ricki/AndroidStudioProjects/topik-4-chapter-2/app/src/main/res/layout/layout_dua.xml" value="0.16354166666666667" />
-        <entry key="..\:/Users/ricki/AndroidStudioProjects/topik-4-chapter-2/app/src/main/res/layout/layout_dua_malik.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/ricki/AndroidStudioProjects/topik-4-chapter-2/app/src/main/res/layout/layout_dua_settings.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/ricki/AndroidStudioProjects/topik-4-chapter-2/app/src/main/res/layout/layout_satu.xml" value="0.16354166666666667" />
-        <entry key="..\:/Users/ricki/AndroidStudioProjects/topik-4-chapter-2/app/src/main/res/layout/malik_layout.xml" value="0.13333333333333333" />
-        <entry key="..\:/Users/ricki/AndroidStudioProjects/topik-4-chapter-2/app/src/main/res/layout/roisul_layout.xml" value="0.16354166666666667" />
-        <entry key="..\:/Users/ricki/AndroidStudioProjects/topik-4-chapter-2/app/src/main/res/layout/syifa_layout.xml" value="0.16354166666666667" />
-        <entry key="..\:/Users/ricki/AndroidStudioProjects/topik-4-chapter-2/app/src/main/res/layout/table_layout.xml" value="0.16354166666666667" />
+        <entry key="..\:/Studi Independent/Android Studio/topik-4-chapter-2/app/src/main/res/drawable/bg_button.xml" value="0.137" />
+        <entry key="..\:/Studi Independent/Android Studio/topik-4-chapter-2/app/src/main/res/drawable/bg_button_latihan.xml" value="0.137" />
+        <entry key="..\:/Studi Independent/Android Studio/topik-4-chapter-2/app/src/main/res/drawable/bg_text_view.xml" value="0.137" />
+        <entry key="..\:/Studi Independent/Android Studio/topik-4-chapter-2/app/src/main/res/drawable/ic_baseline_account_circle.xml" value="0.137" />
+        <entry key="..\:/Studi Independent/Android Studio/topik-4-chapter-2/app/src/main/res/drawable/ic_baseline_payment_24.xml" value="0.137" />
+        <entry key="..\:/Studi Independent/Android Studio/topik-4-chapter-2/app/src/main/res/drawable/ic_baseline_remove_red_eye_24.xml" value="0.137" />
+        <entry key="..\:/Studi Independent/Android Studio/topik-4-chapter-2/app/src/main/res/drawable/transparant_background.xml" value="0.137" />
+        <entry key="..\:/Studi Independent/Android Studio/topik-4-chapter-2/app/src/main/res/layout/layout_dua.xml" value="0.2" />
+        <entry key="..\:/Studi Independent/Android Studio/topik-4-chapter-2/app/src/main/res/layout/layout_dua_malik.xml" value="0.2" />
+        <entry key="..\:/Studi Independent/Android Studio/topik-4-chapter-2/app/src/main/res/layout/layout_dua_padi.xml" value="0.22" />
+        <entry key="..\:/Studi Independent/Android Studio/topik-4-chapter-2/app/src/main/res/layout/layout_satu.xml" value="0.2" />
+        <entry key="..\:/Studi Independent/Android Studio/topik-4-chapter-2/app/src/main/res/layout/linear_horizontal.xml" value="0.2" />
+        <entry key="..\:/Studi Independent/Android Studio/topik-4-chapter-2/app/src/main/res/layout/padi_layout.xml" value="0.159375" />
+        <entry key="..\:/Studi Independent/Android Studio/topik-4-chapter-2/app/src/main/res/layout/roisul_layout.xml" value="0.16041666666666668" />
+        <entry key="..\:/Studi Independent/Android Studio/topik-4-chapter-2/app/src/main/res/layout/syifa_layout.xml" value="0.2" />
+        <entry key="..\:/Studi Independent/Android Studio/topik-4-chapter-2/app/src/main/res/layout/table_layout.xml" value="0.2" />
         <entry key="..\:/me/semester 5/topik4Chap2/app/src/main/res/drawable/bg_button.xml" value="0.1545" />
         <entry key="..\:/me/semester 5/topik4Chap2/app/src/main/res/drawable/bg_card_view.xml" value="0.1545" />
         <entry key="..\:/me/semester 5/topik4Chap2/app/src/main/res/drawable/bg_layout_satu.xml" value="0.1385" />
@@ -35,7 +40,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
