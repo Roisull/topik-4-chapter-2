@@ -18,4 +18,7 @@
     <string name="id_user">ID USER</string>
     <string name="nu_ll">Null</string>
     <string name="email">Email</string>
+    <string name="desc_layout2_page3"><![CDATA[Masuk ke Pengaturan. Cari Hidupkan/matikan layar pintar > hidupkan Angkat untuk membangunkan. Kemudian layar akan secara otomatis bangun ketika Anda mengangkat telepon dari permukaan datar.]]></string>
+    <string name="title_layout2_page3">Bagaimana Cara menggunakan Angkat untuk Membangunkan di Telepon?</string>
+    <string name="read_count_layout2_page3">1291K</string>
 </resources>

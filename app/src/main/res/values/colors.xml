@@ -17,4 +17,6 @@
     <color name="blue_bg">#0963A1</color>
     <color name="blue_font">#46B0E0</color>
 
+    <color name="blue_btn_bg">#3F7DCA</color>
+    <color name="divider">#3A3A3A</color>
 </resources>
