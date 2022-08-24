@@ -3,14 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/me/semester 5/topik4Chap2/app/src/main/res/drawable/bg_button.xml" value="0.1545" />
         <entry key="..\:/me/semester 5/topik4Chap2/app/src/main/res/drawable/bg_card_view.xml" value="0.1545" />
         <entry key="..\:/me/semester 5/topik4Chap2/app/src/main/res/drawable/bg_layout_satu.xml" value="0.1385" />
         <entry key="..\:/me/semester 5/topik4Chap2/app/src/main/res/drawable/bg_main.xml" value="0.1385" />
+        <entry key="..\:/me/semester 5/topik4Chap2/app/src/main/res/drawable/bg_text_view.xml" value="0.1545" />
+        <entry key="..\:/me/semester 5/topik4Chap2/app/src/main/res/drawable/shape_layout_dua.xml" value="0.1545" />
+        <entry key="..\:/me/semester 5/topik4Chap2/app/src/main/res/drawable/transparant_background.xml" value="0.1545" />
         <entry key="..\:/me/semester 5/topik4Chap2/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/me/semester 5/topik4Chap2/app/src/main/res/layout/content_layout_dua.xml" value="0.22447916666666667" />
         <entry key="..\:/me/semester 5/topik4Chap2/app/src/main/res/layout/latihan_linear_layout.xml" value="0.2" />
+        <entry key="..\:/me/semester 5/topik4Chap2/app/src/main/res/layout/layout_dua.xml" value="0.2" />
         <entry key="..\:/me/semester 5/topik4Chap2/app/src/main/res/layout/layout_satu.xml" value="0.18" />
         <entry key="..\:/me/semester 5/topik4Chap2/app/src/main/res/layout/linear_horizontal.xml" value="0.22447916666666667" />
         <entry key="..\:/me/semester 5/topik4Chap2/app/src/main/res/layout/relative_layout.xml" value="0.18611111111111112" />
+        <entry key="..\:/me/semester 5/topik4Chap2/app/src/main/res/menu/bottom_navbar_layout_dua.xml" value="0.22447916666666667" />
       </map>
     </option>
   </component>

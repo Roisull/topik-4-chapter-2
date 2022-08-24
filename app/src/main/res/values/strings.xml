@@ -14,5 +14,8 @@
     <string name="kas">KAS (D/K)</string>
     <string name="data_piutang_bulanan">Data Pituang Bulanan</string>
     <string name="laporan_keuangan">Laporan Keuangan</string>
-    
+    <string name="username">Your username</string>
+    <string name="id_user">ID USER</string>
+    <string name="nu_ll">Null</string>
+    <string name="email">Email</string>
 </resources>
