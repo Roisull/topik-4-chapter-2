@@ -99,19 +99,19 @@
             android:id="@+id/rl_email"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:background="@drawable/bg_text_view"
             android:layout_below="@+id/rl_username"
-            android:layout_marginTop="20dp">
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_text_view">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/email"
-                android:textColor="@color/black"
-                android:textStyle="bold"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"/>
+                android:layout_marginRight="20dp"
+                android:text="@string/email"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
 
         </RelativeLayout>
 
